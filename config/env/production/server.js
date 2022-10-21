@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-    url: env("MY_HEROKU_URL"),
+    url: env("https://refiner.herokuapp.com"),
     proxy: true,
     app: {
       keys: env.array("APP_KEYS", ["cr8zy", "secr8t"]),
